@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Food Data Analyst</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaquesries.css">
+    </head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">My Portfolio</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Portfolio Website</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Register</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Feedback</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Services</a></li>
+
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="assets/profile_photo.jpeg" alt="June Atuti Profile Picture">
+            </div>
+            <div class="section__text-container">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">June Atuti</h1>
+                <p class="section__text__p2">Food Quality Data Analyst</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/my_resume.docx')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/icons8-linkedin-logo (1).svg" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/juneatuti/'">
+                    <img src="./assets/icons8-github.svg" alt="My Github Profile" class="icon" onclick="location.href='https://www.github.com/atutidev/'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/icons8-certified-64.png" alt="Experience Icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2 + years <br> Science Laboratory Work</p>
+                    </div>
+                    
+                    <div class="details-container">
+                        <img src="assets/icons8-graduation-cap-32.png" alt="Education Icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>AWS Cloud Practitioner (Restart Alumni)</p>
+                        <p>Bachelor's of Science Biomedical Science and Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> 
+                        I believe in the power of data to improve food safety. quality, and
+                        sustainability. I enjoy exploring food-related datasets to identify trends,
+                       predict outcomes, and develop data-driven solutions. I'm so eager to contribute my analytical skills to the advancement of the food industry.
+                    </p>
+                </div>
+            </div>
+            <img src="assets/icons8-down-arrow-64.png" alt="Down arrow" class="icon arrow" onclick="location.href='#experience'">
+        
+        </section>
+
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Data Analyst</h2>
+                        <div class="artcile-container">
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Beginner </p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>HTML, CSS, JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Python with Libraries like Pandas & Numpy</h3>
+                                    <p>Beginner</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Cloud Computing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Tableau</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                                
+                            </article>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Research Scientist</h2>
+                        <div class="artcile-container">
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Predictive Modeling</h3>
+                                    <p>Experienced</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>HACCP</h3>
+                                    <p>Experienced
+                                        <br>
+                                    </p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Biology of Biomolecules</h3>
+                                    <p>Experienced
+                                        <br>
+                                    </p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Chemistry</h3>
+                                    <p>Excellent</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Microbiology</h3>
+                                    <p>Experienced</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Virology</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                                
+                            </article>
+                            <article>
+                                <img src="assets/icons8-checkmark-48.png" alt="Experience Icon" class="icon"/>
+                                <div>
+                                    <h3>Pharmacology</h3>
+                                    <p>Intermediate <br>
+                                    </p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <img src="assets/icons8-down-arrow-64.png" alt="Down arrow" class="icon arrow" onclick="location.href='#projects'">
+        </section>
+
+
+
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container-color-container">
+                        <div class="artcile-container">
+                            <img src="assets/background_photo.jpeg" alt="Project 1" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project One</h2>
+                        <div class="btn-container">
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Github
+
+                            </button>
+
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Live Demo
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container-color-container">
+                        <div class="artcile-container">
+                            <img src="assets/background_photo.jpeg" alt="Project 2" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Github
+
+                            </button>
+
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Live Demo
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container-color-container">
+                        <div class="artcile-container">
+                            <img src="assets/background_photo.jpeg" alt="Project Three" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <div class="btn-container">
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Github
+
+                            </button>
+
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Live Demo
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container-color-container">
+                        <div class="artcile-container">
+                            <img src="assets/background_photo.jpeg" alt="Project Four" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Four</h2>
+                        <div class="btn-container">
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Github
+
+                            </button>
+
+                            <button class="btn-2 btn-color-2 project-btn" onclick="location.href='https://www.github.com/atutidev/'">
+                                Live Demo
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/icons8-down-arrow-64.png" alt="Down arrow" class="icon arrow" onclick="location.href='#contact'"/>   
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">
+                Get in Touch
+            </p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="assets/icons8-email-52.png" alt="Email Icon" class="icon contact-icon"/>
+                    <p><a href="mailto:atutijune@gmail.com">Atutijune@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="assets/icons8-linkedin-logo (1).svg" alt="LinkedIn Icon" class="icon contact-icon"/>
+                    <p> <a href="https://www.linkedin.com/in/juneatuti/">LinkedIn</a></p>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024. June Atuti. All Rights Reserved.</p>
+        </footer>
+
+
+
+    
+
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
